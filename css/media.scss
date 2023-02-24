@@ -1,0 +1,118 @@
+
+
+@media (max-width: 1440px){
+    .header {
+        padding-bottom: 300px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .header {
+        padding-bottom: 250px;
+    }
+
+    .hiking-head{
+        font-size: 68px;
+    }
+
+    .article-text{
+        padding-left: 50px;
+        max-width: 50%;
+        margin-right: 0;
+        &::before{
+            width: 140px;
+            height: 140px;
+            font-size: 140px;
+        }
+    }
+    .article-img{
+        width: 45%;
+    }
+
+    .footer-nav + .footer-nav{
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 920px){
+    .footer-row{
+        flex-direction: column-reverse;
+    }
+    .footer-copyright{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .header {
+        padding-bottom: 200px;
+    }
+
+    .nav, .account {
+        display: none;
+    }
+
+    .nav-wrapper{
+        margin-bottom: 90px;
+    }
+
+    .nav-burger-menu{
+        display: block;
+        position: relative;
+        z-index: 9;
+    }
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .hiking-category{
+        font-size: 14px;
+        padding-left: 62px;
+        &::before{
+            width: 42px;
+        }
+    }
+
+    .hiking-head{
+        font-size: 38px;
+    }
+
+    .article-text{
+        max-width: 100%;
+        p{
+            font-size: 18px;
+        }
+    }
+    .article-title{
+        font-size: 38px
+    }
+
+
+}
+
+@media (max-width: 720px){
+    .article{
+        flex-direction: column-reverse;
+    }
+    .article-text{
+        width: 100%;
+    }
+    .article-img{
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 560px){
+    .footer-nav-wrapper{
+        flex-direction: column;
+    }
+    .footer-nav + .footer-nav{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+}
