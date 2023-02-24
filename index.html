@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MNTN</title>
+
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
     <link rel="stylesheet" href="./font/Gilroy/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header class="header">
         <nav class="nav-wrapper">
             <div class="container-wide">
@@ -20,6 +23,7 @@
                     <div class="logo">
                         MNTN
                     </div>
+
                     <div class="nav">
                         <ul>
                             <li><a href="#">Equipment</a></li>
@@ -27,8 +31,20 @@
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
-                    <div class="login">
-                        <a href="#" class="account"><img class="cart" src="./img/icon/cart.svg" alt=""></a>
+                    <a href="#" class="account">Account</a>
+
+                    <button class="nav-burger-menu">
+                        <span class="nav-burger-icon"></span>
+                    </button>
+
+                    <div class="mobile-nav">
+                        <div class="nav">
+                            <ul>
+                                <li><a href="#">Equipment</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
                         <a href="#" class="account">Account</a>
                     </div>
                 </div>
@@ -42,14 +58,14 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <div class="container">
             <article class="article" >
                 <div class="article-text" data-number="01">
                     <div class="article-subtitle">GEt Started</div>
                     <div class="article-title">What level of  hiker are you?</div>
                     <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
-                    <div class="article-read-more"><a href="#">read more</a></div>
+                    <a href="#" class="article-read-more"><span>read more</span></a>
                 </div>
                 <div class="article-img">
                     <img src="./img/Photo/01.jpg" alt="What level of  hiker are you?">
@@ -62,7 +78,7 @@
                     <div class="article-title">Picking the right Hiking Gear!</div>
                     <p>The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
                         Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
-                    <div class="article-read-more"><a href="#">read more</a></div>
+                    <a href="#" class="article-read-more"><span>read more</span></a>
                 </div>
                 <div class="article-img">
                     <img src="./img/Photo/02.jpg" alt="What level of  hiker are you?">
@@ -74,7 +90,7 @@
                     <div class="article-subtitle">where you go is the key</div>
                     <div class="article-title">Understand Your Map & Timing</div>
                     <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
-                    <div class="article-read-more"><a href="#">read more</a></div>
+                    <a href="#" class="article-read-more"><span>read more</span></a>
                 </div>
                 <div class="article-img">
                     <img src="./img/Photo/03.jpg" alt="What level of  hiker are you?">
@@ -94,7 +110,7 @@
                     <div class="copyright-terms">Copyright 2019 MNTN, Inc. Terms & Privacy</div>
                 </div>
                 <div class="footer-nav-wrapper">
-                    <div class="footer-nav">
+                    <div class="footer-nav nav1">
                         <div class="nav-blog">
                             <h4 class="footer-nav-title">More on The Blog</h4>
                             <ul>
@@ -120,6 +136,6 @@
             </div>
         </div>
     </footer>
-
+<script src="./JS/main.js"></script>
 </body>
 </html> 
